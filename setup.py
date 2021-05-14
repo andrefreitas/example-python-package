@@ -3,7 +3,7 @@ import foo
 
 
 setup(
-    name='foo',
+    name='andrefreitas-foo',
     version=foo.__version__,
     entry_points={
         'console_scripts': [
@@ -11,6 +11,7 @@ setup(
             'foo-xpto = foo.cli:xpto'
         ]
     },
+    scripts=['bin/foo-bear'],
     author='André Freitas',
     author_email='p.andrefreitas@gmail.com',
     packages=find_packages('.'),

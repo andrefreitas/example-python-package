@@ -18,5 +18,6 @@ Run some commands
 xpto
 > foo-bar
 bar
+> foo-bear
+Bear
 ```
-
